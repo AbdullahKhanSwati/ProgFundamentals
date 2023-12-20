@@ -14,10 +14,10 @@ int main() {
     scanf("%lf %lf", &lat2, &lon2);
     
     // Convert latitude and longitude from degrees to radians
-    double lat1Rad = lat1 * M_PI / 180.0;
-    double lon1Rad = lon1 * M_PI / 180.0;
-    double lat2Rad = lat2 * M_PI / 180.0;
-    double lon2Rad = lon2 * M_PI / 180.0;
+    double lat1Rad = lat1 * 3.14/ 180.0;
+    double lon1Rad = lon1 * 3.14 / 180.0;
+    double lat2Rad = lat2 * 3.14 / 180.0;
+    double lon2Rad = lon2 * 3.14 / 180.0;
     
     // Calculate distance using the Spherical Law of Cosines formula
     double dLat = lat2Rad - lat1Rad;
